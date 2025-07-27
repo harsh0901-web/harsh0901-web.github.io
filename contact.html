@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contact Harsh</title>
+<meta name="description" content="Contact Harsh for projects or inquiries." />
+<style>
+  body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; background: #f5f5f5; }
+  nav a { margin: 0 10px; text-decoration: none; color: #0073e6; }
+  nav a:hover { text-decoration: underline; }
+  section { background: white; padding: 15px; margin-top: 20px; border-radius: 8px; box-shadow: 0 0 8px #ccc; }
+  footer { text-align: center; margin-top: 40px; font-size: 0.9em; color: #777; }
+  label { display: block; margin-top: 10px; }
+  input, textarea { width: 100%; padding: 8px; margin-top: 4px; box-sizing: border-box; }
+  button { margin-top: 15px; padding: 10px 15px; background: #0073e6; color: white; border: none; border-radius: 5px; cursor: pointer; }
+  button:hover { background: #005bb5; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Contact Harsh</h1>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="projects.html">Projects</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section>
+  <h2>Get in Touch</h2>
+  <form action="https://formspree.io/f/yourformid" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="_replyto" required />
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 Harsh. All rights reserved.
+</footer>
+
+</body>
+</html>
